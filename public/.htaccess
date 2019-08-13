@@ -1,0 +1,11 @@
+#initialize rewrite egine
+
+RewriteEngine on
+
+# if reqested file is not a rea file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+
+# redirect all request  to index.php
+RewriteRule .  index.php [L]

@@ -1,0 +1,28 @@
+<VirtualHost *:80>
+	ServerName chsr.test
+	DocumentRoot "C:/xampp1/htdocs/chsr/public"
+	SetEnv APPLICATION_ENV "development"
+	<Directory "C:/xampp1/htdocs/chsr/public">
+	DirectoryIndex index.php
+	AllowOverride All
+	Order allow,deny
+	Allow from all
+	</Directory>
+
+	</VirtualHost>
+
+
+
+127.0.0.1 fjapp.test
+127.0.0.1 flash.test
+127.0.0.1 tickets.test
+127.0.0.1 invoice.test
+127.0.0.1 hotel.test
+127.0.0.1 kitchen.test
+127.0.0.1 chsr.test
+127.0.0.1 rosettastone.com
+127.0.0.1 launch.rosettastone.com
+127.0.0.1 amp.rosettastone.com
+127.0.0.1 resources.rosettastone.com
+127.0.0.1 updates.rosettastone.com
+127.0.0.1 localhost
